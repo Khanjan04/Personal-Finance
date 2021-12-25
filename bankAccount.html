@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Account Statement</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Bank Account Data</h2>
+
+<label for="cars">Choose an account:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">ICICI - PRV</option>
+    <option value="saab">SBI - PRV</option>
+    <option value="opel">SBI - DPV</option>
+    <option value="audi">BOB - PRV</option>
+    <option value="audi">SBI - PRV+DPV</option>
+    <option value="audi">SBI - HOME L/O</option>
+    <option value="audi">ICICI - DPV</option>
+  </select>
+
+<table>
+  <tr>
+    <th>DATE</th>
+    <th>CREDIT</th>
+    <th>CHEQUE NO</th>
+    <th>REMARKS</th>
+    <th>DEBIT</th>
+    <th>CHEQUE NO</th>
+    <th>REMARKS</th>
+  </tr>
+  <tr>
+    <td>Entry 1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Entry 2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Entry 3</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Entry 10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>---</td>
+  </tr>
+</table>
+
+<div>
+    <button type="button" class="btn btn-outline-primary">Add Data</button>
+  </div>
+
+  <label for="cars">Choose an option:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Income</option>
+    <option value="saab">Transfer</option>
+    <option value="opel">Expense</option>
+    <option value="audi">Investment</option>
+    <option value="audi">Withdrawn</option>
+  </select>
+
+</body>
+</html>
+

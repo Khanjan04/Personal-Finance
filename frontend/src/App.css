@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  margin-top: 14rem;
-  margin-bottom: 14rem;
+  margin-top: 12rem;
+  margin-bottom: 11rem;
 }
 
 .App-logo {
@@ -30,8 +30,24 @@
   color: #61dafb;
 }
 
+.title {
+  margin-bottom: 2rem;
+}
+
 .button {
-  margin: 1rem;
+  margin: 0.25rem;
+  font-size: 1.6rem;
+  width: 15rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  border-color: rgb(121, 173, 241);
+  color: rgb(61, 140, 243);
+}
+
+.button:hover {
+  background-color: rgb(61, 140, 243);
+  color: #ffffff;
+  border-color: rgb(10, 51, 165);
 }
 
 @keyframes App-logo-spin {

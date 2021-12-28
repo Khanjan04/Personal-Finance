@@ -5,21 +5,21 @@ function App() {
   return (
     <div className="App">
       <div class="container">
-        <h2>Personal Finance</h2>
-        <div className="button">
-            <button type="button" class="btn btn-outline-primary">Income</button>
+        <h1 className="title">Personal Finance</h1>
+        <div>
+            <button className="button">Income</button>
         </div>
-        <div className="button">
-            <button type="button" class="btn btn-outline-primary">Expense</button>
+        <div>
+            <button className="button">Expense</button>
         </div>
-        <div className="button">
-            <button type="button" class="btn btn-outline-primary">Bank Account</button>
+        <div>
+            <button className="button">Bank Account</button>
         </div>
-        <div className="button">
-            <button type="button" class="btn btn-outline-primary">Investment</button>
+        <div>
+            <button className="button">Investment</button>
         </div>
-        <div className="button">
-            <button type="button" class="btn btn-outline-primary">Summary</button>
+        <div>
+            <button className="button">Summary</button>
         </div>
       </div>
     </div>
